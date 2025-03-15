@@ -1,0 +1,126 @@
+.cart-page-container {
+    padding: 30px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+}
+
+.cart-header {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.empty-cart-message {
+    text-align: center;
+}
+
+.empty-cart-message p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cart-items-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cart-item {
+    display: flex;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item-image {
+    margin-right: 20px;
+}
+
+.cart-item-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cart-item-details {
+    flex-grow: 1;
+}
+
+.cart-item-details h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.cart-item-details p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.quantity-control {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.quantity-btn {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.remove-btn {
+    padding: 8px 15px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.cart-item-total {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cart-summary {
+    margin-top: 30px;
+    text-align: right;
+}
+
+.cart-summary h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.cart-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.cart-buttons .btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cart-buttons .btn-primary {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+.cart-buttons .btn-secondary {
+    background-color: #f1f1f1;
+    color: #333;
+    border: 1px solid #ddd;
+}

@@ -1,0 +1,9 @@
+.Heading_text {
+    display: flex;
+}
+
+.heading_poster {
+    object-fit: cover;
+    width: 150px;
+
+}

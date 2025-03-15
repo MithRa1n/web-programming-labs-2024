@@ -1,0 +1,126 @@
+.section-2 {
+    display: flex;
+    margin-left: 17%;
+    width: 80%;
+    margin-top: 5%;
+}
+
+.quote {
+    width: 30%;
+}
+
+.quote h1 {
+    height: 50px;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    
+}
+.quote p {
+    font-family: Muli;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    width: 450px;
+    height: 144px;
+}
+
+.quote img {
+    margin-top: 30%;
+}
+
+.human {
+    margin-top: 10%;
+    margin: 0;
+}
+
+.section-2 .brodyaga2 {
+    margin-top: 10%;
+    height: 50%;
+    margin-left: 25%;
+}
+
+
+@media (max-width: 768px) {
+    .section-2 {
+        display: block;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        padding: 20px 10px;
+        margin: 0%;
+    }
+
+    .section-2 .quote {
+        display: block;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .quote h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .quote p {
+        margin-left: 2%;
+        width: 100%;
+        
+    }
+
+    .quote h2{
+        margin-left: 6.5%;
+        margin-top: 30%;
+    }
+
+    .quote .texting {
+        text-align: center;
+    }
+
+    .quote .author {
+        text-align: center;
+    }
+
+    .quote img {
+        margin: 10px 0;
+        width: 80px; 
+    }
+
+    .section-2 .brodyaga2 {
+        margin-left: -10px;
+        width: 80%;
+        height: auto;
+        margin-top:-120px;
+    }
+}
+
+
+
+@media (min-width: 2560px) {
+
+    .section-2 h1 {
+        font-size: 750%;
+    }
+
+    .section-2 p {
+        width: 150%;
+        font-size: 350%;
+        line-height: 115%;
+        
+    }
+
+    .section-2 h2 {
+        margin-top: 35%;
+        font-size: 350%
+    }
+
+    .section-2 .brodyaga2 {
+        width: 35%;
+    }
+}
+
+
+
+    
